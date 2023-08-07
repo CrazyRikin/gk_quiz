@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gk_quiz/questions_folder/question_and_answer/ques_ans.dart';
 import 'package:gk_quiz/results/summary_data.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen(this.chossenAnswer, this.restartQuiz, {super.key});
@@ -45,7 +46,13 @@ class ResultScreen extends StatelessWidget {
             label: const Text(
               'Restart Quiz',
               style: TextStyle(color: Colors.white),
-            ))
+            )),
+        const SizedBox(height: 30),
+        Text('Made by Rikin Ranka :)',
+            style: GoogleFonts.lato(
+                fontSize: 14,
+                color: Colors.white,
+                fontWeight: FontWeight.bold)),
       ],
     );
   }

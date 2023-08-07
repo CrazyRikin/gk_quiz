@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gk_quiz/questions_folder/answer_button.dart';
-import 'package:gk_quiz/questions_folder/template/question_template.dart';
 import 'package:gk_quiz/questions_folder/question_and_answer/ques_ans.dart';
-import 'package:gk_quiz/quiz_states.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class QuestionPage extends StatefulWidget {

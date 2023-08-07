@@ -8,8 +8,8 @@ void main() {
         body: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(colors: [
-              Color.fromARGB(255, 0, 75, 156),
-              Color.fromARGB(255, 41, 105, 224)
+              Color.fromARGB(255, 1, 58, 120),
+              Color.fromARGB(255, 68, 101, 162)
             ], begin: Alignment.topLeft, end: Alignment.bottomRight),
           ),
           child: const Center(child: Quiz()),
